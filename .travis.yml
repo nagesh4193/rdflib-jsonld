@@ -6,12 +6,18 @@ branches:
     - master
 python:
     - 2.7
-    - 3.3
+#   - 3.3
     - 3.4
     - 3.5
     - 3.6
+    - 3.7
+    - 3.8
     - pypy
     - pypy3
+
+arch: 
+    - amd64
+    - ppc64le
 
 install:
     - pip install . nose flake8
